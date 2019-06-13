@@ -1,0 +1,26 @@
+{
+  "title": "argo",
+  "description": "Demo for using argo event and workflow",
+  "details": {
+    "steps": [
+      {
+        "title": "Install kubernetes",
+        "text": "step1.md"
+      }, 
+      {
+          "title": "Initialize cluster",
+          "text": "step2.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+      "hideintro": true,
+    "uilayout": "terminal-terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster"
+  }
+}
